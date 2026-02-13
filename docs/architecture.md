@@ -58,3 +58,26 @@ The Spare service automatically takes over when the Primary service becomes unav
 1. Client → Load Balancer  
 2. Load Balancer → Primary  
 3. If Primary fails → Load Balancer → Spare  
+
+## Architecture Diagram
+
+Client
+   ↓
+Load Balancer (port 5000)
+   ↓
+Primary Service (port 5001)
+   ↓ (if failure detected)
+Spare Service (port 5002)
+
+
+---
+
+## 6. Failure Scenario Simulation
+
+Possible failure simulations include:
+
+- Manual shutdown of Primary service
+- Injected exception in /data endpoint
+- Returning HTTP 500 error
+
+The watchdog detects the failure through the /health endpoint and triggers failover to the Spare service.
