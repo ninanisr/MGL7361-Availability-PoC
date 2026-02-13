@@ -57,21 +57,20 @@ The Spare service automatically takes over when the Primary service becomes unav
 
 1. Client → Load Balancer  
 2. Load Balancer → Primary  
-3. If Primary fails → Load Balancer → Spare  
+3. If Primary fails → Load Balancer → Spare
 
-## Architecture Diagram
+---
+
+## 5. Architecture Diagram
 
 Client
-|
-v
-Load Balancer (5000)
-|
-v
-Primary Service (5001)
-|
-|--- if failure detected --->
-v
-Spare Service (5002)
+   ↓
+Load Balancer (port 5000)
+   ↓
+Primary Service (port 5001)
+   ↓ (if failure detected)
+Spare Service (port 5002)
+
 ---
 
 ## 6. Failure Scenario Simulation
