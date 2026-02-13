@@ -61,13 +61,11 @@ The Spare service automatically takes over when the Primary service becomes unav
 
 ## Architecture Diagram
 
-Client
-   ↓
-Load Balancer (port 5000)
-   ↓
-Primary Service (port 5001)
-   ↓ (if failure detected)
-Spare Service (port 5002)
+```mermaid
+flowchart LR
+    Client --> LB[Load Balancer :5000]
+    LB --> Primary[Primary Service :5001]
+    Primary -->|Failure detected| Spare[Spare Service :5002]
 
 
 ---
