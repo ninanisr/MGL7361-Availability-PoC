@@ -71,6 +71,8 @@ Primary Service (port 5001)
    ↓ (if failure detected)
 Spare Service (port 5002)
 
+This diagram represents the primary-spare redundancy pattern implemented in this PoC.
+
 ---
 
 ## 6. Failure Scenario Simulation
