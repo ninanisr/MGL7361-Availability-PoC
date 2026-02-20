@@ -1,9 +1,11 @@
 # Primary service
 from flask import Flask, jsonify
+from flask_cors import CORS
 import os
 import time
 
 app = Flask(__name__)
+CORS(app)
 
 ROLE = "primary"
 PORT = int(os.getenv("PORT", "5001"))
