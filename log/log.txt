@@ -1,0 +1,561 @@
+
+{"timestamp": "2026-02-25 00:08:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:16", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:08:18", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:21", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:24", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:24", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:08:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:32", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:08:33", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:36", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:40", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:08:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:48", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:08:49", "route": "kill", "sent_to": "PRIMARY", "response": "{\"now\":\"DOWN\",\"ok\":true,\"role\":\"primary\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:08:49", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:51", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:51", "route": "kill", "sent_to": "PRIMARY", "response": "{\"now\":\"DOWN\",\"ok\":true,\"role\":\"primary\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:08:51", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:54", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:08:57", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:08:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:05", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:09:06", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:09", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:12", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:13", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:09:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:21", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:09:21", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:24", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:27", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:29", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:09:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:37", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:09:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:42", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:45", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:09:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:53", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:09:54", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:09:57", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:00", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:01", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:10:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:09", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:10:12", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:15", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:17", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:10:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:25", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:10:27", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:30", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:33", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:33", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:10:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:41", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:10:42", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:45", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:48", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:49", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:10:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:10:57", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:11:00", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:03", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:05", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:11:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:13", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:11:15", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:18", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:21", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:21", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:11:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:30", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:11:30", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:33", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:36", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:38", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:11:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:46", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:11:48", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:51", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:54", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:11:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:11:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:02", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:12:03", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:06", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:09", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:10", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:12:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:18", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:12:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:21", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:24", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:26", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:12:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:34", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:12:36", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:42", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:42", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:12:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:50", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:12:51", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:54", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:57", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:12:58", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:13:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:06", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:13:09", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:12", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:14", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:13:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:22", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:13:24", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:27", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:30", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:30", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:13:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:38", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:13:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:42", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:45", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:47", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:13:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:13:55", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:13:57", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:00", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:03", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:14:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:11", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:14:12", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:15", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:18", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:19", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:14:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:27", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:14:27", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:30", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:33", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:35", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:14:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:43", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:14:45", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:48", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:51", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:51", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:14:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:14:59", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:15:00", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:03", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:06", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:07", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:15:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:15", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:15:18", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:21", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:23", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:15:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:31", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:15:33", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:36", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:39", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:15:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:47", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:15:48", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:51", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:54", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:15:55", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:15:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:04", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:16:06", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:09", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:12", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:16:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:20", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:16:21", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:24", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:27", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:28", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:16:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:36", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:16:36", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:42", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:44", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:16:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:16:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:17:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:21:48", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:13", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:15", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:18", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:21", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:24", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:27", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:30", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:33", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:36", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:42", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:45", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:48", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:51", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:54", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:22:57", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:00", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:03", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:06", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:09", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:12", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:15", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:18", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:21", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:24", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:27", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:30", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:33", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:36", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:42", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:45", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:48", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:51", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:54", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:23:57", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:00", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:03", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:06", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:09", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:12", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:15", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:18", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:21", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:24", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:27", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:30", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:33", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:36", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:42", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:43", "route": "kill", "sent_to": "PRIMARY", "response": "{\"now\":\"DOWN\",\"ok\":true,\"role\":\"primary\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:43", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:24:45", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:24:48", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:24:51", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:24:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:24:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:25:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:25:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:25:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:25:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:25:11", "route": "kill", "sent_to": "SPARE", "response": "{\"now\":\"DOWN\",\"ok\":true,\"role\":\"spare\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:25:11", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:17", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:25:18", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:21", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:24", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:25", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:25:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:33", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:25:36", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:41", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:25:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:50", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:25:51", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:54", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:57", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:25:58", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:26:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:06", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:26:06", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:09", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:12", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:14", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:26:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:22", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:26:24", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:27", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:30", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:26:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:38", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:26:39", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:42", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:45", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:46", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:26:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:54", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:26:54", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:26:57", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:00", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:02", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:27:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:10", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:27:12", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:15", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:18", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:27:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:26", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:27:27", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:30", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:33", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:34", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:27:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:42", "route": "activateSpare", "sent_to": "NONE", "response": "success: PRIMARY is activated", "code": 200}
+{"timestamp": "2026-02-25 00:27:42", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:45", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:48", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:49", "route": "revive", "sent_to": "SPARE", "response": "{\"now\":\"UP\",\"ok\":true,\"role\":\"spare\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:27:49", "route": "health", "sent_to": "PRIMARY", "response": "{\"role\":\"primary\",\"status\":\"DOWN\"}\n", "code": 500}
+{"timestamp": "2026-02-25 00:27:50", "route": "activateSpare", "sent_to": "NONE", "response": "success: SPARE is activated", "code": 200}
+{"timestamp": "2026-02-25 00:27:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:27:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:27:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:28:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:29:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:30:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:31:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:32:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:33:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:15", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:18", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:21", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:24", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:27", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:30", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:33", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:36", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:39", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:42", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:45", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:51", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:54", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:34:57", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:00", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:03", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:06", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:09", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:12", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:16", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:19", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:22", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:25", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:28", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:31", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:34", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:37", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:40", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:43", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:46", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:49", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:52", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:55", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:35:58", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:36:01", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:36:04", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:36:07", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:36:10", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:36:13", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:36:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:37:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:38:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:39:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:40:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
+{"timestamp": "2026-02-25 00:41:48", "route": "health", "sent_to": "SPARE", "response": "{\"role\":\"spare\",\"status\":\"UP\"}\n", "code": 200}
