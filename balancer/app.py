@@ -1,131 +1,80 @@
-"""
-Load Balancer + Watchdog – MGL7361 Availability PoC
-Runs on port 5000.
-
-Responsibilities:
-  • Forward client requests to the Primary service (port 5001).
-  • Background watchdog polls Primary /health every HEALTH_CHECK_INTERVAL seconds.
-  • On failure detection, failover traffic to the Spare service (port 5002).
-  • Expose /status to inspect current routing state and metrics.
-"""
-
-import threading
-import time
-from flask import Flask, jsonify, request
+# Balancer
+from flask import Flask, request
+from flask_cors import CORS
+import json
 import requests
+import os
+import time
 
 app = Flask(__name__)
+CORS(app)
 
-# ─────────────────────────────────────────────
-# Configuration
-# ─────────────────────────────────────────────
-PRIMARY_URL = "http://localhost:5001"
-SPARE_URL   = "http://localhost:5002"
-HEALTH_CHECK_INTERVAL = 3   # seconds between health polls
-HEALTH_TIMEOUT        = 2   # seconds before a health call is considered failed
+PORT = int(os.getenv("PORT", "5000"))
+#LOG_PATH = os.path.join(".. ","log","log.txt")
+LOG_PATH = os.path.join("log","log.txt")
+print(LOG_PATH)
 
-# ─────────────────────────────────────────────
-# Shared state (protected by a lock)
-# ─────────────────────────────────────────────
-_lock              = threading.Lock()
-_primary_healthy   = True   # current assessment of Primary
-_active_backend    = PRIMARY_URL
-_failover_count    = 0
-_last_check_time   = None
-_last_check_status = "unknown"
+PRIMARY = {"name": "PRIMARY", "port": int(os.getenv("PORT", "5001"))}
+SPARE = {"name": "SPARE", "port": int(os.getenv("PORT", "5002"))}
+ACTIVE = PRIMARY
 
+def flipServer():
+    global ACTIVE
+    if ACTIVE == PRIMARY:
+        ACTIVE = SPARE
+    else:
+        ACTIVE = PRIMARY
+        
+def logRoute(path, serverName,response, response_code):
+    curTime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    response = response.decode('utf-8') if isinstance(response, bytes) else str(response)
+    
+    if not os.path.exists(LOG_PATH):
+        with open(LOG_PATH, "w") as f:
+            pass
+    with open(LOG_PATH, "a") as f:
+        f.write(json.dumps({"timestamp": curTime, "route": path, "sent_to": serverName, "response": response, "code": response_code}) + "\n")
+    print(json.dumps({"timestamp": curTime, "route": path, "sent_to": serverName, "response": response, "code": response_code}))
 
-def _set_active_backend(url: str, is_primary: bool):
-    """Switch the active backend and update shared state."""
-    global _active_backend, _primary_healthy, _failover_count
-    with _lock:
-        if is_primary:
-            if not _primary_healthy:
-                # Recovery
-                _primary_healthy = True
-                _active_backend  = PRIMARY_URL
-                print("[Watchdog] Primary recovered – routing back to primary.")
+@app.route('/', defaults={'path': ''}, methods=["GET", "POST"])
+@app.route('/<path:path>', methods=["GET", "POST"])
+def routing(path):
+    url = f"http://localhost:{ACTIVE['port']}/{path}"
+    method = request.method
+    returnText = ""
+    code = None
+    serverSent = ACTIVE['name']
+    
+    
+    if path == "activateSpare":
+        #Activate non active server
+        flipServer()
+        returnText = f"success: {ACTIVE['name']} is activated"
+        code = 200
+        serverSent = "NONE"
+    elif path == "revive":
+        #Revive non active server
+        response = ""
+        if ACTIVE == PRIMARY:
+            response = requests.post(f"http://localhost:{SPARE['port']}/revive")
+            serverSent = SPARE['name']
         else:
-            if _primary_healthy:
-                # Failover
-                _primary_healthy = False
-                _active_backend  = SPARE_URL
-                _failover_count += 1
-                print(f"[Watchdog] Primary FAILED – failing over to spare (event #{_failover_count}).")
-
-
-def _watchdog():
-    """Background thread: periodically checks Primary /health."""
-    global _last_check_time, _last_check_status
-    while True:
+            response = requests.post(f"http://localhost:{PRIMARY['port']}/revive")
+            serverSent = PRIMARY['name']
+        returnText = response.content
+        code = response.status_code
+    else:
+        #Route to active server
         try:
-            resp = requests.get(f"{PRIMARY_URL}/health", timeout=HEALTH_TIMEOUT)
-            ok = resp.status_code == 200
-            _last_check_status = "healthy" if ok else f"unhealthy (HTTP {resp.status_code})"
-            _set_active_backend(PRIMARY_URL, is_primary=ok)
-        except requests.exceptions.RequestException as exc:
-            _last_check_status = f"unreachable ({exc})"
-            _set_active_backend(SPARE_URL, is_primary=False)
-        finally:
-            with _lock:
-                _last_check_time = time.time()
-        time.sleep(HEALTH_CHECK_INTERVAL)
-
-
-# Start watchdog in daemon thread so it exits with the process
-_watchdog_thread = threading.Thread(target=_watchdog, daemon=True, name="Watchdog")
-_watchdog_thread.start()
-
-
-# ─────────────────────────────────────────────
-# Proxy helpers
-# ─────────────────────────────────────────────
-PROXIED_ROUTES = ["/data", "/health"]
-
-def _proxy(path: str):
-    """Forward the current request to the active backend."""
-    with _lock:
-        backend = _active_backend
-
-    url = f"{backend}{path}"
-    try:
-        resp = requests.request(
-            method=request.method,
-            url=url,
-            headers={k: v for k, v in request.headers if k != "Host"},
-            data=request.get_data(),
-            timeout=5,
-        )
-        return (resp.content, resp.status_code, dict(resp.headers))
-    except requests.exceptions.RequestException as exc:
-        return jsonify({"error": "Both backends unreachable", "detail": str(exc)}), 503
-
-
-# ─────────────────────────────────────────────
-# Routes
-# ─────────────────────────────────────────────
-@app.route("/data", methods=["GET"])
-def proxy_data():
-    return _proxy("/data")
-
-
-@app.route("/health", methods=["GET"])
-def proxy_health():
-    return _proxy("/health")
-
-
-@app.route("/status", methods=["GET"])
-def status():
-    """Exposes current load-balancer state and watchdog metrics."""
-    with _lock:
-        return jsonify({
-            "active_backend":    _active_backend,
-            "primary_healthy":   _primary_healthy,
-            "failover_count":    _failover_count,
-            "last_check_time":   _last_check_time,
-            "last_check_status": _last_check_status,
-        }), 200
-
+            response = requests.request(method, url, timeout=1)
+            returnText = response.content
+            code = response.status_code
+        except requests.exceptions.RequestException:
+            returnText = "error: Service unavailable"
+            code = 503
+    
+    logRoute(path, serverSent, returnText, code)
+    return returnText, code
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    app.run(host="0.0.0.0", port=PORT)

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard de Disponibilité - MGL7361</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; display: flex; justify-content: center; padding: 20px; }
+        .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 400px; text-align: center; }
+        .status { font-weight: bold; padding: 10px; border-radius: 6px; margin: 20px 0; }
+        .up { background: #d4edda; color: #155724; }
+        .down { background: #f8d7da; color: #721c24; }
+        button { cursor: pointer; border: none; padding: 12px 20px; border-radius: 6px; font-weight: bold; transition: 0.3s; margin: 5px; width: 100%; }
+        .btn-check { background: #007bff; color: white; }
+        .btn-kill { background: #dc3545; color: white; }
+        .btn-revive { background: #28a745; color: white; }
+        button:hover { opacity: 0.8; }
+        #logs { font-size: 0.8rem; text-align: left; background: #eee; padding: 10px; height: 100px; overflow-y: auto; margin-top: 20px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>MGL7361 - Disponibilité</h2>
+    <p>Nœud ciblé: <strong>Primary (Port 5001)</strong></p>
+    
+    <div id="statusIndicator" class="status up">ÉTAT: CHARGEMENT...</div>
+
+    <button class="btn-check" onclick="checkStatus()">Vérifier l'API (Health Check)</button>
+    <button class="btn-kill" onclick="sendAction('kill')">CRASH LE SERVICE (Stimulus)</button>
+    <button class="btn-revive" onclick="sendAction('revive')">RÉANIMER LE SERVICE</button>
+
+    <div id="logs"></div>
+</div>
+
+<script>
+    const API_URL = "http://localhost:5001";
+
+    function addLog(msg) {
+        const logs = document.getElementById('logs');
+        logs.innerHTML += `<div>[${new Date().toLocaleTimeString()}] ${msg}</div>`;
+        logs.scrollTop = logs.scrollHeight;
+    }
+
+    async function checkStatus() {
+        try {
+            const resp = await fetch(`${API_URL}/health`);
+            const data = await resp.json();
+            const indicator = document.getElementById('statusIndicator');
+            
+            indicator.innerText = `ÉTAT: ${data.status}`;
+            indicator.className = `status ${data.status.toLowerCase() === 'up' ? 'up' : 'down'}`;
+            addLog(`Réponse: ${data.status} (via ${data.role})`);
+        } catch (e) {
+            document.getElementById('statusIndicator').innerText = "ÉTAT: ERREUR CONNEXION";
+            document.getElementById('statusIndicator').className = "status down";
+            addLog("Erreur: Le service ne répond plus.");
+        }
+    }
+
+    async function sendAction(route) {
+        try {
+            const resp = await fetch(`${API_URL}/${route}`, { method: 'POST' });
+            const data = await resp.json();
+            addLog(`Action ${route}: OK (Status: ${data.now})`);
+            checkStatus();
+        } catch (e) {
+            addLog(`Erreur lors de l'action ${route}`);
+        }
+    }
+    setInterval(checkStatus, 3000); // peut etre a changer ou meme a enlever si on ne veut pas que ca se fasse automatiquement
+</script>
+
+</body>
+</html>

@@ -1,36 +1,43 @@
-"""
-Spare Service – MGL7361 Availability PoC
-Runs on port 5002.
-Mirrors the Primary service endpoints.
-Activated automatically by the Load Balancer when the Primary is unhealthy.
-"""
-
+# Spare service
 from flask import Flask, jsonify
+import os
 import time
 
 app = Flask(__name__)
 
+ROLE = "spare"
+PORT = int(os.getenv("PORT", "5002"))
 
-@app.route("/health")
+state = {"down": False, "down_since": None}
+
+@app.get("/health")
 def health():
-    """Health-check endpoint – the spare is always healthy."""
-    return jsonify({"status": "ok", "service": "spare"}), 200
+    if state["down"]:
+        return jsonify({"role": ROLE, "status": "DOWN"}), 500
+    return jsonify({"role": ROLE, "status": "UP"}), 200
 
-
-@app.route("/data")
+@app.get("/data")
 def data():
-    """Returns the same shape of data as the Primary service."""
+    if state["down"]:
+        return jsonify({"role": ROLE, "error": "Service is DOWN"}), 500
     return jsonify({
-        "service": "spare",
-        "timestamp": time.time(),
-        "message": "Hello from the Spare service (failover active)!",
-        "items": [
-            {"id": 1, "value": "alpha"},
-            {"id": 2, "value": "beta"},
-            {"id": 3, "value": "gamma"},
-        ],
+        "role": ROLE,
+        "status": "OK",
+        "data": "hello from spare",
+        "ts": time.time()
     }), 200
 
+@app.post("/kill")
+def kill():
+    state["down"] = True
+    state["down_since"] = time.time()
+    return jsonify({"ok": True, "role": ROLE, "now": "DOWN"}), 200
+
+@app.post("/revive")
+def revive():
+    state["down"] = False
+    state["down_since"] = None
+    return jsonify({"ok": True, "role": ROLE, "now": "UP"}), 200
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5002, debug=False)
+    app.run(host="0.0.0.0", port=PORT)
