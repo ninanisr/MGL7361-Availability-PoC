@@ -21,7 +21,7 @@
 
 <div class="card">
     <h2>MGL7361 - Disponibilité</h2>
-    <p>Nœud ciblé: <strong>Primary (Port 5001)</strong></p>
+    <p>Nœud ciblé: <strong id="nodeDisplay">Primary (Port 5001)</strong></p>
     
     <div id="statusIndicator" class="status up">ÉTAT: CHARGEMENT...</div>
 
@@ -46,9 +46,15 @@
             const resp = await fetch(`${API_URL}/health`);
             const data = await resp.json();
             const indicator = document.getElementById('statusIndicator');
+            const nodeDisplay = document.getElementById('nodeDisplay');
             
             indicator.innerText = `ÉTAT: ${data.status}`;
             indicator.className = `status ${data.status.toLowerCase() === 'up' ? 'up' : 'down'}`;
+
+            const port = (data.role === "spare") ? "5002" : "5001";
+            const roleDisplay = (data.role === "primary") ? "Primary" : "Spare";
+            nodeDisplay.innerText = `${roleDisplay} (port ${port})`;
+
             addLog(`Réponse: ${data.status} (via ${data.role})`);
         } catch (e) {
             document.getElementById('statusIndicator').innerText = "ÉTAT: ERREUR CONNEXION";
