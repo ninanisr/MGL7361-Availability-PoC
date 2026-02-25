@@ -12,7 +12,7 @@ The system is composed of:
 - Primary Service  
 - Spare Service  
 - Load Balancer  
-- Failure Detection Mechanism (Watchdog)
+- Failure Detection Mechanism (Monitor)
 
 More details are available in `docs/architecture.md`.
 
@@ -41,7 +41,7 @@ curl http://localhost:5000/data           # → {"service": "primary", ...}
 curl http://localhost:5000/status         # → primary_healthy: true
 
 # 3. Inject failure into Primary
-curl -X POST http://localhost:5001/fail   # watchdog detects within ~3s
+curl -X POST http://localhost:5001/fail   # monitor detects within ~3s
 
 # 4. Traffic is now routed to Spare
 curl http://localhost:5000/data           # → {"service": "spare", ...}
@@ -62,7 +62,7 @@ curl http://localhost:5000/data           # → {"service": "primary", ...}
 ├── spare/
 │   └── app.py          # Spare service (port 5002) – /data, /health
 ├── balancer/
-│   └── app.py          # Load balancer + watchdog (port 5000) – /data, /health, /status
+│   └── app.py          # Load balancer + monitor (port 5000) – /data, /health, /status
 ├── docs/
 │   └── architecture.md # Architecture documentation
 ├── requirements.txt
@@ -74,4 +74,4 @@ curl http://localhost:5000/data           # → {"service": "primary", ...}
 - Nisrine Arrachid – System architecture, repository structure and documentation  
 - Ilyes Khayati – Implementation of Primary and Spare services (/data, /health)  
 - Thomas Veneroso – Failure simulation and interface  
-- Eldrick Beaumont – Failure detection (watchdog) and metrics
+- Eldrick Beaumont – Failure detection (monitor) and metrics
