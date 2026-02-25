@@ -1,9 +1,9 @@
 import requests
 import os, time
 
-PRIMARY = int(os.getenv("PORT", "5001"))
-SPARE = int(os.getenv("PORT", "5002"))
-BALANCER =  int(os.getenv("PORT", "5000"))
+PRIMARY = 5001
+SPARE = 5002
+BALANCER = 5000
 ACTIVE = PRIMARY
 
 TIMELAPSE = 2
